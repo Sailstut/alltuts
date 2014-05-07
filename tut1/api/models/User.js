@@ -32,7 +32,7 @@ module.exports = {
 
   	encryptedPassword: {
   		type: 'string'
-  	}/*,
+  	},
 
     toJSON: function() {
 
@@ -42,7 +42,7 @@ module.exports = {
       delete obj.encryptedPassword;
       delete obj._csrf;
       return obj;
-    }	*/
+    }	
   }
 
 };

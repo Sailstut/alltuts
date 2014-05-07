@@ -38,7 +38,13 @@ module.exports.routes = {
   '/user/new': {
     controller: 'UserController',
     action: 'new'
+  },
+   '/user': {
+    controller: 'UserController',
+    action: 'index'
   }
+
+
 
   /*
   // But what if you want your home page to display
